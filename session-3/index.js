@@ -27,3 +27,11 @@ function conversation() {
   console.log("How are you?");
   console.log("Goodbye");
 }
+
+function futureAge(name, currentAge) {
+  let age = currentAge + 5;
+  //return "Hi " + name + "! You will turn " + age + "in 5 years.";
+  return `Hi ${name}! You will turn ${age} in 5 years.`;
+}
+
+console.log(futureAge("Judith", 19));
