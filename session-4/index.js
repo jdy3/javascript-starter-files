@@ -68,4 +68,15 @@ const square = y * y;
 
 console.log(`Square: y*y ${square}`);
 
+let myAge = 19;
+const minDrivingAge = 18;
+
+const drive = (age, minAge) => {
+  return age >= minAge
+    ? "Yes, you are old enough to drive!"
+    : "No, you are not old enough to drive.";
+};
+
+console.log(drive(myAge, minDrivingAge));
+
 // ****************************************************TASK 3****************************************************
