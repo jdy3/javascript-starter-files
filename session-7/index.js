@@ -29,23 +29,23 @@
 
 // console.log(names);
 
-const numbers = [5, 325, 67, 100000, 150];
+// const numbers = [5, 325, 67, 100000, 150];
 
-numbers.sort();
+// numbers.sort();
 
-console.log(numbers);
+// console.log(numbers);
 
-numbers.sort().reverse();
+// numbers.sort().reverse();
 
-console.log(numbers);
+// console.log(numbers);
 
-numbers.sort((a, b) => a - b);
+// numbers.sort((a, b) => a - b);
 
-console.log(numbers);
+// console.log(numbers);
 
-numbers.sort((a, b) => b - a);
+// numbers.sort((a, b) => b - a);
 
-console.log(numbers);
+// console.log(numbers);
 
 // ****************************************************TASK 3****************************************************
 
@@ -56,8 +56,10 @@ const people = [
   { name: "killmonger", age: 32 },
 ];
 
+console.log(people.sort((a, b) => a.age - b.age).map((x) => x.name));
+
 // This is a helper function that should be used in the final task of the session.
 // You should pass this function to the sort method to sort the ages of each individiual in the people array of objects
-function compare(a, b) {
-  return a.age - b.age;
-}
+// function compare(a, b) {
+//   return a.age - b.age;
+// }
