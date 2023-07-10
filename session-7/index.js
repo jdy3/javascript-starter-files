@@ -1,12 +1,33 @@
 // ****************************************************TASK 1****************************************************
 
-const animals = ["cat", "dog", "wolf", "lion", "eagle", "zebra"];
+// const animals = ["cat", "dog", "wolf", "lion", "eagle", "zebra"];
 
-animals.pop();
+// animals.pop();
 
-console.log(animals);
+// console.log(animals);
 
 // ****************************************************TASK 2****************************************************
+
+const names = [
+  "Jack",
+  "Dan",
+  "James",
+  "Stephen",
+  "Joe",
+  "Ben",
+  "Esther",
+  "Ella",
+  "Eve",
+  "Judith",
+];
+
+names.sort();
+
+console.log(names);
+
+names.sort().reverse();
+
+console.log(names);
 
 // ****************************************************TASK 3****************************************************
 
