@@ -8,26 +8,44 @@
 
 // ****************************************************TASK 2****************************************************
 
-const names = [
-  "Jack",
-  "Dan",
-  "James",
-  "Stephen",
-  "Joe",
-  "Ben",
-  "Esther",
-  "Ella",
-  "Eve",
-  "Judith",
-];
+// const names = [
+//   "Jack",
+//   "Dan",
+//   "James",
+//   "Stephen",
+//   "Joe",
+//   "Ben",
+//   "Esther",
+//   "Ella",
+//   "Eve",
+//   "Judith",
+// ];
 
-names.sort();
+// names.sort();
 
-console.log(names);
+// console.log(names);
 
-names.sort().reverse();
+// names.sort().reverse();
 
-console.log(names);
+// console.log(names);
+
+const numbers = [5, 325, 67, 100000, 150];
+
+numbers.sort();
+
+console.log(numbers);
+
+numbers.sort().reverse();
+
+console.log(numbers);
+
+numbers.sort((a, b) => a - b);
+
+console.log(numbers);
+
+numbers.sort((a, b) => b - a);
+
+console.log(numbers);
 
 // ****************************************************TASK 3****************************************************
 
