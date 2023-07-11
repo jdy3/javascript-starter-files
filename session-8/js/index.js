@@ -32,3 +32,21 @@ function respondMouseOut() {
 function respondClick() {
   document.querySelector("#effect").innerHTML += "Click Event" + "<br>";
 }
+
+document
+  .querySelector("#remove-handler")
+  .addEventListener("mousemove", randomNumber);
+
+function randomNumber() {
+  document.querySelector("#random-number").innerHTML = Math.random();
+}
+
+document
+  .querySelector("#remove-handler-button")
+  .addEventListener("click", removeHandler);
+
+function removeHandler() {
+  document
+    .querySelector("#remove-handler")
+    .removeEventListener("mousemove", randomNumber);
+}
