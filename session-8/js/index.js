@@ -11,3 +11,5 @@ button.appendChild(content);
 button.onClick = displayPopulation;
 
 document.body.appendChild(button);
+
+createListOfFruits(fruits);
